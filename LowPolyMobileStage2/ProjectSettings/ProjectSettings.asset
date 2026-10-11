@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 23
+  companyName: LowPolyStudio
+  productName: LowPolyMobile
+  bundleVersion: 0.1.0
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  defaultScreenWidthWeb: 1280
+  defaultScreenHeightWeb: 720
+  defaultIsNativeResolution: 1
+  defaultScreenOrientation: 3
+  allowedAutorotateToPortrait: 0
+  allowedAutorotateToPortraitUpsideDown: 0
+  allowedAutorotateToLandscapeRight: 1
+  allowedAutorotateToLandscapeLeft: 1
+  use32BitDisplayBuffer: 1
+  useFlipModelSwapchain: 1
+  runInBackground: 0
+  m_ActiveColorSpace: 1
+  applicationIdentifier:
+    Android: com.lowpolystudio.stage1
+    Standalone: com.lowpolystudio.stage1
+  overrideDefaultApplicationIdentifier: 1
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 0
+  AndroidTargetArchitectures: 2
+  AndroidUseCustomKeystore: 0
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 1
+  scriptingBackend:
+    Android: 1
+    Standalone: 0
+  il2cppCompilerConfiguration:
+    Android: 0
+  managedStrippingLevel:
+    Android: 1
+  activeInputHandler: 0
+  stripEngineCode: 1
+  scriptingRuntimeVersion: 1
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 0b000000
+    m_Automatic: 0
+  apiCompatibilityLevelPerPlatform:
+    Android: 6

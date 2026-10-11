@@ -1,0 +1,46 @@
+{
+  "stage": 2,
+  "baseline": "Stage 1 Fix01; user confirmed Play Mode on 2026-10-11 with zero Console errors in screenshot.",
+  "status": "Static validation passed; Unity execution not available",
+  "csharp_syntax_files": 19,
+  "checks_passed": [
+    "Tree-sitter C# syntax parsing (not type checking)",
+    "Unity YAML and manifest JSON parsing",
+    "Unique asset GUIDs and .meta coverage",
+    "Stage1 scene and URP asset bytes unchanged",
+    "CharacterBuilder lifecycle fix preserved",
+    "Only TagManager changed in ProjectSettings: layer 8 Vehicle"
+  ],
+  "editor_save_checks": "6 cases supplied under LowPoly > Run Save Checks; NOT RUN here",
+  "not_run": [
+    "Unity C# compilation",
+    "Shader compilation",
+    "Vehicle physics in Play Mode",
+    "Runtime save tests",
+    "UI visual validation",
+    "Android build",
+    "Android multitouch"
+  ],
+  "changes": [
+    "NEW Assets/Editor/Stage2SaveChecks.cs",
+    "NEW Assets/Editor/Stage2SaveChecks.cs.meta",
+    "EDIT Assets/LowPolyStage1/Scripts/BaseGameMode.cs",
+    "NEW Assets/LowPolyStage1/Scripts/GameHUD.cs",
+    "NEW Assets/LowPolyStage1/Scripts/GameHUD.cs.meta",
+    "EDIT Assets/LowPolyStage1/Scripts/GameManager.cs",
+    "EDIT Assets/LowPolyStage1/Scripts/MobileInputManager.cs",
+    "EDIT Assets/LowPolyStage1/Scripts/MyGameMode.cs",
+    "EDIT Assets/LowPolyStage1/Scripts/PlayerController.cs",
+    "EDIT Assets/LowPolyStage1/Scripts/PlayerData.cs",
+    "NEW Assets/LowPolyStage1/Scripts/SaveGameStore.cs",
+    "NEW Assets/LowPolyStage1/Scripts/SaveGameStore.cs.meta",
+    "EDIT Assets/LowPolyStage1/Scripts/ThirdPersonCamera.cs",
+    "NEW Assets/LowPolyStage1/Scripts/VehicleController.cs",
+    "NEW Assets/LowPolyStage1/Scripts/VehicleController.cs.meta",
+    "NEW Assets/LowPolyStage1/Scripts/WorldPickup.cs",
+    "NEW Assets/LowPolyStage1/Scripts/WorldPickup.cs.meta"
+  ],
+  "project_settings_changed": [
+    "TagManager.asset"
+  ]
+}
